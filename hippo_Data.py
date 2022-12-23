@@ -132,7 +132,6 @@ model.summary()
 
 
 yhat = model.predict(X_test)
-# yhat[1]=pd.DataFrame(yhat[1],columns=["Erythrocytes","HSPC","Monocytes","Neutrophils","Thrombocytes"])
 class_labels = np.argmax(yhat[1], axis=1)
 y_test = np.argmax(np.array(y_test), axis=1)
 cm = confusion_matrix(class_labels, y_test)
