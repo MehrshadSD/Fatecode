@@ -1,48 +1,26 @@
-# -*- coding: utf-8 -*-
+
 
 #%%
 import scvelo as scv
 import pandas as pd
 import numpy as np
-import pandas as pd
-import scipy.io as sio
 
-import scanpy as sc
-import os
 #%% CHECK THE DIFFERENT AEs file to chooose the right arch and more details of the method.
 from sklearn.datasets import make_classification
-from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.layers import LeakyReLU
 from tensorflow.keras.layers import BatchNormalization
-from tensorflow.keras.utils import plot_model
 from matplotlib import pyplot
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.metrics import plot_confusion_matrix
-import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import pandas as pd
-from sklearn.datasets import make_classification
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
-from sklearn.metrics import adjusted_rand_score, accuracy_score
-from sklearn.cluster import KMeans
-from sklearn.manifold import TSNE
 from sklearn.preprocessing import LabelEncoder
-import np_utils
 from tensorflow.keras.utils import to_categorical
-from tensorflow.keras import backend as K, activations
 from sklearn.metrics import confusion_matrix
 import random 
-from sklearn.metrics import accuracy_score
-import tensorflow
-from tensorflow.keras.models import load_model
 import random as rn
 np.random.seed(42)
 rn.seed(1254)
