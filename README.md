@@ -10,10 +10,6 @@ Now let me explain the files we have here:
 
 4) hierarchy curve: This file compares the performance of a model with differential gene expression (DGE). (TP, FN, FP, Recall, and precision are also computed here).
 
-- You can find the paper here: https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(24)00184-X
-
-- You can also find the application of Fatecode in cellular reprogramming in our recent experimental paper: https://www.biorxiv.org/content/10.1101/2024.05.28.596294v1. In this paper, we used one of these cool plots (I think it's called a Polar plot). You can use them if you want, but they're not great when you do multiple perturbations.
-
-
-
-
+- You can find the paper [here](https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(24)00184-X)
+- You can also find the application of Fatecode in cellular reprogramming in our recent experimental [paper](https://www.biorxiv.org/content/10.1101/2024.05.28.596294v1). In this paper, we used one of these cool plots (I think it's called a Polar plot). You can use them if you want, but they're not great when you do multiple perturbations.
+- Next, I am interested in working on the connection between this [paper](https://ieeexplore.ieee.org/abstract/document/6918504) (The Potential Energy of an Autoencoder) and non-equilibrium statistical physics.  
