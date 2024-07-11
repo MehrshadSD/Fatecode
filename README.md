@@ -10,7 +10,7 @@ Now let me explain the files we have here:
 
 4) hierarchy curve: This file compares the performance of a model with differential gene expression (DGE). (TP, FN, FP, Recall, and precision are also computed here).
 
-You can find the paper here: https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(24)00184-X
+- You can find the paper here: https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(24)00184-X
 
-You can also find the application of Fatecode in cellular reprogramming in our recent experimental paper: https://www.biorxiv.org/content/10.1101/2024.05.28.596294v1
+- You can also find the application of Fatecode in cellular reprogramming in our recent experimental paper: https://www.biorxiv.org/content/10.1101/2024.05.28.596294v1
 
