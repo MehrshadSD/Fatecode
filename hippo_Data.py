@@ -183,7 +183,7 @@ table
 
 lat_sub = empty[39] - X_encode 
 lat_sub_decod = decoder.predict(lat_sub)
-yhatt = Classifier.predict(empty[79])
+yhatt = Classifier.predict(empty[39])
 class_labels = np.argmax(yhatt, axis=1)
 class_labels = pd.DataFrame(class_labels, index=Y.index)
 lat_sub_decod = pd.DataFrame(lat_sub_decod, index=X.index, columns=X.columns)
